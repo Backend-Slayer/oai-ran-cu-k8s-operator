@@ -31,7 +31,7 @@ resources:
   cu-image:
     type: oci-image
     description: Container image for the OAI RAN Central Unit (CU).
-    upstream-source: docker.io/shivank1128/oai-du:72x.2.2.0
+    upstream-source: docker.io/shivank1128/oai-cu:72x.2.2.0
 
 provides:
   fiveg_f1:
