@@ -2,8 +2,8 @@ type: charm
 name: oai-ran-cu-k8s
 summary: Charmed Operator for the OAI RAN Central Unit (CU).
 description: Charmed Operator for the OAI RAN Central Unit (CU).
-base: ubuntu@24.04
-build-base: ubuntu@24.04
+base: ubuntu@22.04
+build-base: ubuntu@22.04
 platforms:
   amd64:
 
@@ -31,7 +31,7 @@ resources:
   cu-image:
     type: oci-image
     description: Container image for the OAI RAN Central Unit (CU).
-    upstream-source: ghcr.io/canonical/oai-ran-cu:2.2.0
+    upstream-source: docker.io/shivank1128/oai-du:72x.2.2.0
 
 provides:
   fiveg_f1:
